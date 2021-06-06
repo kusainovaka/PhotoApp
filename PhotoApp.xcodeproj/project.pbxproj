@@ -56,15 +56,47 @@
 		8EBE66ED266D33E30095F921 /* PhotoApp */ = {
 			isa = PBXGroup;
 			children = (
-				8EBE66EE266D33E30095F921 /* AppDelegate.swift */,
-				8EBE66F0266D33E30095F921 /* SceneDelegate.swift */,
-				8EBE66F2266D33E30095F921 /* ViewController.swift */,
-				8EBE66F4266D33E30095F921 /* Main.storyboard */,
-				8EBE66F7266D33E60095F921 /* Assets.xcassets */,
-				8EBE66F9266D33E60095F921 /* LaunchScreen.storyboard */,
+				8EBE6722266D4E340095F921 /* ApplicationLayer */,
+				8EBE6724266D4E460095F921 /* BusinessLayer */,
+				8EBE6723266D4E3D0095F921 /* PresentationLayer */,
+				8EBE6721266D4E240095F921 /* Resources */,
 				8EBE66FC266D33E60095F921 /* Info.plist */,
 			);
 			path = PhotoApp;
+			sourceTree = "<group>";
+		};
+		8EBE6721266D4E240095F921 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EBE66F4266D33E30095F921 /* Main.storyboard */,
+				8EBE66F7266D33E60095F921 /* Assets.xcassets */,
+				8EBE66F9266D33E60095F921 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8EBE6722266D4E340095F921 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8EBE66EE266D33E30095F921 /* AppDelegate.swift */,
+				8EBE66F0266D33E30095F921 /* SceneDelegate.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		8EBE6723266D4E3D0095F921 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8EBE66F2266D33E30095F921 /* ViewController.swift */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		8EBE6724266D4E460095F921 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
