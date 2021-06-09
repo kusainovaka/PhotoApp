@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        let postListPage = PostListPage(viewModel: .init())
+        window?.rootViewController = UINavigationController(rootViewController: postListPage)
         window?.makeKeyAndVisible()
     }
 
